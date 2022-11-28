@@ -7,6 +7,8 @@ import Sector from './Pages/Sector'
 import Segment from './Pages/Segment'
 import Company from './Pages/Company'
 import NotFound from './Pages/NotFound'
+import Contact from './Pages/Contact'
+import './Resetcss.css'
 import './App.css'
 
 function App() {
@@ -17,9 +19,10 @@ function App() {
       <main className='AppBoddy'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='sector' element={<Sector />} />
-          <Route path='sector/:segment' element={<Segment />} />
-          <Route path='sector/:segment/:company' element={<Company />} />
+          <Route path='setor' element={<Sector />} />
+          <Route path='contato' element={<Contact />} />
+          <Route path='setor/:segment' element={<Segment />} />
+          <Route path='setor/:segment/:company' element={<Company />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>

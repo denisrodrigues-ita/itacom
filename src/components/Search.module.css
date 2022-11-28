@@ -1,0 +1,11 @@
+.form button {
+  cursor: pointer;
+  background-color: #eee;
+  padding: .5rem;
+  margin-left: .2rem;
+}
+
+.form input {
+  background-color: #eee;
+  padding: .5rem;
+}
