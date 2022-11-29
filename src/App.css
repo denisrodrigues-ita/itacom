@@ -3,3 +3,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+:root {
+  --first-color: #071B3D;
+}
+
+body {
+  color: var(--first-color);
+}

@@ -1,8 +1,7 @@
 .grid {
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-  ;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   gap: 1rem;
 }
 
@@ -12,6 +11,7 @@
 
 .grid img {
   height: 100%;
+  object-fit: cover;
 }
 
 .grid nav ul {
@@ -24,7 +24,6 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: rgb(30, 22, 99);
   gap: 3rem;
 }
 
@@ -53,10 +52,10 @@
   display: block;
 }
 
-.grid li ul li{
+.grid li ul li {
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   padding: .5rem .2rem;
   border: 1px solid #96e6a1;
-  display:block;
-  width:150px;
-  }
+  display: block;
+  width: 150px;
+}
