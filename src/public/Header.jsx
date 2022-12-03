@@ -20,6 +20,9 @@ const Header = () => {
                   <li><Link to="setor/farmacias">Farmácias</Link></li>
                   <li><Link to="setor/mercados">Mercados</Link></li>
                   <li><Link to="setor/padarias">Padarias</Link></li>
+                  <li><Link to="setor/academias">Academias</Link></li>
+                  <li><Link to="setor/restaurantes">Restaurantes</Link></li>
+                  <li><Link to="setor/servicos">Serviços</Link></li>
                 </ul>
               </li>
               <li><Link to="/contato">Contato</Link></li>

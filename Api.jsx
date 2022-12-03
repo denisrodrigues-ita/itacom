@@ -1,23 +1,285 @@
-import klm from './src/img/empresas/klm.jpg';
-import belavista from './src/img/empresas/belavista.jpg';
-import superama from './src/img/empresas/superama.jpg';
+import klm from './src/img/segmentos/mercados/klm.jpg';
+import belavista from './src/img/segmentos/mercados/belavista.jpg';
+import superama from './src/img/segmentos/mercados/superama.jpg';
+import farmabom from './src/img/segmentos/farmacias/farmabom.jpg';
+import pacheco from './src/img/segmentos/farmacias/pacheco.jpg';
+import superfarma from './src/img/segmentos/farmacias/super-farma.jpg';
+import bussato from './src/img/segmentos/servicos/bussato.jpg';
+import eletricaHamilton from './src/img/segmentos/servicos/eletrica-hamilton.jpg';
+import enermat from './src/img/segmentos/servicos/enermat.jpg';
+import bomDeBoia from './src/img/segmentos/restaurantes/bomDeBoia.jpg';
+import rest from './src/img/segmentos/restaurantes/rest.jpg';
+import sushisashimi from './src/img/segmentos/restaurantes/sushisashimi.jpg';
+import atitude from './src/img/segmentos/academias/atitude.jpeg';
+import blueFit from './src/img/segmentos/academias/blueFit.jpg';
+import bonnaVitta from './src/img/segmentos/academias/bonnaVitta.jpeg';
+import jarielPan from './src/img/segmentos/padarias/jariel-pan.jpg';
+import padariaReal from './src/img/segmentos/padarias/padaria-real.jpg';
+import paoDocePao from './src/img/segmentos/padarias/pao-doce-pao.jpg';
 
 const emp = {
-  "mercado": [
+  "mercados": [
     {
       "nome": "KLM Supermercados",
       "telefone": "(35) 3441-1234",
-      "img": klm
+      "img": klm,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
     },
     {
       "nome": "Bela VistaSupermercados",
       "telefone": "(35) 3441-1234",
-      "img": belavista
+      "img": belavista,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
     },
     {
       "nome": "Superama Supermercados",
       "telefone": "(35) 3441-1234",
-      "img": superama
+      "img": superama,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    }
+  ],
+  "farmacias": [
+    {
+      "nome": "Farmabom",
+      "telefone": "(35) 3441-1234",
+      "img": farmabom,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Pacheco",
+      "telefone": "(35) 3441-1234",
+      "img": pacheco,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Super",
+      "telefone": "(35) 3441-1234",
+      "img": superfarma,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    }
+  ],
+  "servicos": [
+    {
+      "nome": "Bussato",
+      "telefone": "(35) 3441-1234",
+      "img": bussato,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Eletrica Hamilton",
+      "telefone": "(35) 3441-1234",
+      "img": eletricaHamilton,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Enermat",
+      "telefone": "(35) 3441-1234",
+      "img": enermat,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    }
+  ],
+  "academias": [
+    {
+      "nome": "Atitude Feminina",
+      "telefone": "(35) 3441-1234",
+      "img": atitude,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Blue Fit",
+      "telefone": "(35) 3441-1234",
+      "img": blueFit,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Bonna Vitta",
+      "telefone": "(35) 3441-1234",
+      "img": bonnaVitta,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    }
+  ],
+  "restaurantes": [
+    {
+      "nome": "Bom De Boia",
+      "telefone": "(35) 3441-1234",
+      "img": bomDeBoia,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Rest",
+      "telefone": "(35) 3441-1234",
+      "img": rest,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Sushi Sashimi",
+      "telefone": "(35) 3441-1234",
+      "img": sushisashimi,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    }
+  ],
+  "padarias": [
+    {
+      "nome": "Jariel Pan",
+      "telefone": "(35) 3441-1234",
+      "img": jarielPan,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Padaria Real",
+      "telefone": "(35) 3441-1234",
+      "img": padariaReal,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Pão Doce Pão",
+      "telefone": "(35) 3441-1234",
+      "img": paoDocePao,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
     }
   ]
 }
