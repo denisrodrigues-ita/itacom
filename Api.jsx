@@ -16,6 +16,7 @@ import bonnaVitta from './src/img/segmentos/academias/bonnaVitta.jpeg';
 import jarielPan from './src/img/segmentos/padarias/jariel-pan.jpg';
 import padariaReal from './src/img/segmentos/padarias/padaria-real.jpg';
 import paoDocePao from './src/img/segmentos/padarias/pao-doce-pao.jpg';
+import lisboa from './src/img/segmentos/padarias/lisboa.jpg';
 
 const emp = {
   "mercados": [
@@ -271,6 +272,20 @@ const emp = {
       "nome": "Pão Doce Pão",
       "telefone": "(35) 3441-1234",
       "img": paoDocePao,
+      "endereco": "Rua dos Bobos, nº 0",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "cep": "36000-000",
+      "cnpj": "00.000.000/0000-00",
+      "email": "",
+      "site": "www.klm.com.br",
+      "facebook": "www.facebook.com/klm",
+      "instagram": "www.instagram.com/klm",
+    },
+    {
+      "nome": "Panificadora Lisboa",
+      "telefone": "(35) 3441-1234",
+      "img": lisboa,
       "endereco": "Rua dos Bobos, nº 0",
       "cidade": "Juiz de Fora",
       "estado": "MG",

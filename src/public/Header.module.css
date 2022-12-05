@@ -48,8 +48,8 @@
 
 .grid li:hover ul,
 .grid li.over ul {
-
   display: block;
+  z-index: 1;
 }
 
 .grid li ul li {
