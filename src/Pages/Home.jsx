@@ -10,7 +10,7 @@ const Home = () => {
         <h1>Tudo o que você precisa na cidade de xxxxxxxx,<br></br> você encontra aqui.</h1>
         <h2>Empresas em destaque.</h2>
       </div>
-      <div className={`${styles.flx} container animeLeft`}>
+      <div className={"container animeLeft"}>
         <HomeRandom />
       </div>
     </section >

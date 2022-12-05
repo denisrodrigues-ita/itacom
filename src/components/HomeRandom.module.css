@@ -1,0 +1,16 @@
+.a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.flx {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flx img {
+  width: 400px;
+  height: 250px;
+}
