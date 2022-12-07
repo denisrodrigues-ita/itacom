@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import emp from '../../Api';
 import styles from './HomeRandom.module.css';
-import { AiOutlineClose } from 'react-icons/ai';
-import Modal from './Modal';
+import { AiOutlineClose, AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
 const getRandomInt = (max) => Math.floor(Math.random() * max);
 let arr = [];
@@ -82,6 +81,8 @@ const HomeRandom = () => {
           <p>{modalEmpresa?.endereco}</p>
           <p>{modalEmpresa?.cidade}</p>
           <p>{modalEmpresa?.telefone}</p>
+          <p><a href={modalEmpresa?.facebook} target="_blank">facebook <AiFillFacebook /></a></p>
+          <p><a href={modalEmpresa?.instagram} target="_blank">Instagram <AiFillInstagram /></a></p>
           <Link to={"/"}><button>Ver Mais</button></Link>
         </div>
       </div>

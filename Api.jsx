@@ -31,8 +31,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Bela VistaSupermercados",
@@ -45,8 +45,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Superama Supermercados",
@@ -59,8 +59,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ],
   "farmacias": [
@@ -75,8 +75,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Pacheco",
@@ -89,8 +89,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Super",
@@ -103,8 +103,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ],
   "servicos": [
@@ -119,8 +119,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Eletrica Hamilton",
@@ -133,8 +133,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Enermat",
@@ -147,8 +147,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ],
   "academias": [
@@ -163,8 +163,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Blue Fit",
@@ -177,8 +177,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Bonna Vitta",
@@ -191,8 +191,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ],
   "restaurantes": [
@@ -207,8 +207,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Rest",
@@ -221,8 +221,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Sushi Sashimi",
@@ -235,8 +235,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ],
   "padarias": [
@@ -251,8 +251,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Padaria Real",
@@ -265,8 +265,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Pão Doce Pão",
@@ -279,8 +279,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     },
     {
       "nome": "Panificadora Lisboa",
@@ -293,8 +293,8 @@ const emp = {
       "cnpj": "00.000.000/0000-00",
       "email": "",
       "site": "www.klm.com.br",
-      "facebook": "www.facebook.com/klm",
-      "instagram": "www.instagram.com/klm",
+      "facebook": "https://www.facebook.com/klm",
+      "instagram": "https://www.instagram.com/klm",
     }
   ]
 }

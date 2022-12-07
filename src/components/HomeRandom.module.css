@@ -19,6 +19,7 @@
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  position: -webkit-sticky;
   position: sticky;
   display: none;
   padding: 1rem;
@@ -29,6 +30,11 @@
   overflow: auto;
   background-color: #ececec;
   line-height: 1.3rem;
+  transition: 3s all linear;
+}
+
+.modal div {
+  align-items: baseline;
 }
 
 .modal.active {
