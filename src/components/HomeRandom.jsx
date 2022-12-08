@@ -1,8 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import emp from '../../Api';
-import styles from './HomeRandom.module.css';
-import { AiOutlineClose, AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
+import React from "react";
+import { Link } from "react-router-dom";
+import emp from "../../Api";
+import styles from "./HomeRandom.module.css";
+import {
+  AiOutlineClose,
+  AiFillFacebook,
+  AiFillInstagram,
+} from "react-icons/ai";
+import Modal from "react-modal";
 
 const getRandomInt = (max) => Math.floor(Math.random() * max);
 let arr = [];
@@ -28,8 +33,7 @@ const randomHome = () => {
         arr.push(e);
       }
     }
-  }
-  else {
+  } else {
     while (arr.length < 9) {
       let seg = null;
       let e = null;
@@ -43,9 +47,39 @@ const randomHome = () => {
 };
 randomHome();
 
+// Modal react empresas aleatórias
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
+
+Modal.setAppElement("#root");
+
 const HomeRandom = () => {
-  const [modal, setModal] = React.useState('');
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [modal, setModal] = React.useState("");
   const [modalEmpresa, setModalEmpresa] = React.useState({});
+
+  const openModal = ({ currentTarget }) => {
+    setIsOpen(true);
+    setModal(currentTarget.querySelector("#h3").textContent);
+  };
+
+  const afterOpenModal = () => {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = "#f00";
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
 
   // Função para pegar o nome da empresa que foi clicada
   React.useEffect(() => {
@@ -53,50 +87,62 @@ const HomeRandom = () => {
       if (item.nome === modal) {
         setModalEmpresa(item);
       }
-    })
+    });
   }, [modal]);
 
-  // Função para abrir o modal e adicionar a classe active
-  const handleClick = ({ currentTarget }) => {
-    setModal(currentTarget.querySelector('#h3').textContent);
-    const modal = document.querySelector('#modal');
-    modal.classList.add(styles.active);
-  };
-
-  // Função para fechar o modal
-  const handleClose = () => {
-    const btnClose = document.querySelector('#modal');
-    btnClose.classList.remove(styles.active);
-  }
+  console.log(modal);
 
   return (
     <div className={styles.flx}>
-      <div id='modal' className={styles.modal}>
-        <button className={styles.closed} onClick={handleClose}><AiOutlineClose /></button>
-        <div>
-          <img src={modalEmpresa?.img} alt={modalEmpresa?.nome} />
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        // contentLabel="Example Modal"
+      >
+        <div
+          id="modal"
+          className={styles.modal}
+          ref={(_subtitle) => (subtitle = _subtitle)}
+        >
+          <button className={styles.closed} onClick={closeModal}>
+            <AiOutlineClose />
+          </button>
+          <div>
+            <img src={modalEmpresa?.img} alt={modalEmpresa?.nome} />
+          </div>
+          <div>
+            <p>{modalEmpresa?.nome}</p>
+            <p>{modalEmpresa?.endereco}</p>
+            <p>{modalEmpresa?.cidade}</p>
+            <p>{modalEmpresa?.telefone}</p>
+            <p>
+              <a href={modalEmpresa?.facebook} target="_blank">
+                facebook <AiFillFacebook />
+              </a>
+            </p>
+            <p>
+              <a href={modalEmpresa?.instagram} target="_blank">
+                Instagram <AiFillInstagram />
+              </a>
+            </p>
+            <Link to={"/"}>
+              <button>Ver Mais</button>
+            </Link>
+          </div>
         </div>
-        <div>
-          <p>{modalEmpresa?.nome}</p>
-          <p>{modalEmpresa?.endereco}</p>
-          <p>{modalEmpresa?.cidade}</p>
-          <p>{modalEmpresa?.telefone}</p>
-          <p><a href={modalEmpresa?.facebook} target="_blank">facebook <AiFillFacebook /></a></p>
-          <p><a href={modalEmpresa?.instagram} target="_blank">Instagram <AiFillInstagram /></a></p>
-          <Link to={"/"}><button>Ver Mais</button></Link>
-        </div>
-      </div>
-
+      </Modal>
 
       {arr.map((e) => (
-        <div key={e.nome} className={styles.a} onClick={handleClick}>
+        <div key={e.nome} className={styles.a} onClick={openModal}>
           <img src={e.img} alt={e.nome} />
-          <h3 id='h3'>{e?.nome}</h3>
+          <h3 id="h3">{e?.nome}</h3>
           <p>{e?.telefone}</p>
         </div>
       ))}
     </div>
   );
-}
+};
 
-export { HomeRandom, arr };
+export default HomeRandom;
