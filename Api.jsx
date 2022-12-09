@@ -33,6 +33,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Bela VistaSupermercados",
@@ -47,6 +48,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Superama Supermercados",
@@ -61,6 +63,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ],
   "farmacias": [
@@ -77,6 +80,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Pacheco",
@@ -91,6 +95,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Super",
@@ -105,6 +110,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ],
   "servicos": [
@@ -121,6 +127,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Eletrica Hamilton",
@@ -135,6 +142,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Enermat",
@@ -149,6 +157,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ],
   "academias": [
@@ -165,6 +174,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Blue Fit",
@@ -179,6 +189,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Bonna Vitta",
@@ -193,6 +204,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ],
   "restaurantes": [
@@ -209,6 +221,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Rest",
@@ -223,6 +236,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Sushi Sashimi",
@@ -237,6 +251,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ],
   "padarias": [
@@ -253,6 +268,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Padaria Real",
@@ -267,6 +283,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Pão Doce Pão",
@@ -281,6 +298,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     },
     {
       "nome": "Panificadora Lisboa",
@@ -295,6 +313,7 @@ const emp = {
       "site": "www.klm.com.br",
       "facebook": "https://www.facebook.com/klm",
       "instagram": "https://www.instagram.com/klm",
+      "whatsapp": "5535999998888",
     }
   ]
 }

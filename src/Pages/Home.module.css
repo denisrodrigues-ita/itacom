@@ -1,17 +1,3 @@
 .home {
   margin: 0 1rem;
 }
-
-.home h1 {
-  padding: 5rem 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.home h2 {
-  padding-bottom: 5rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-}

@@ -6,6 +6,7 @@ import {
   AiOutlineClose,
   AiFillFacebook,
   AiFillInstagram,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import Modal from "react-modal";
 
@@ -47,7 +48,7 @@ const randomHome = () => {
 };
 randomHome();
 
-// Modal react empresas aleatórias
+// Modal react empresas
 const customStyles = {
   content: {
     top: "50%",
@@ -90,10 +91,8 @@ const HomeRandom = () => {
     });
   }, [modal]);
 
-  console.log(modal);
-
   return (
-    <div className={styles.flx}>
+    <section className={styles.flx}>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -117,19 +116,33 @@ const HomeRandom = () => {
             <p>{modalEmpresa?.endereco}</p>
             <p>{modalEmpresa?.cidade}</p>
             <p>{modalEmpresa?.telefone}</p>
-            <p>
-              <a href={modalEmpresa?.facebook} target="_blank">
-                facebook <AiFillFacebook />
-              </a>
-            </p>
-            <p>
-              <a href={modalEmpresa?.instagram} target="_blank">
-                Instagram <AiFillInstagram />
-              </a>
-            </p>
-            <Link to={"/"}>
-              <button>Ver Mais</button>
-            </Link>
+            <div className={styles.socialMedias}>
+              <div>
+                <p>
+                  <a href={modalEmpresa?.facebook} target="_blank">
+                    <AiFillFacebook />
+                  </a>
+                </p>
+                <p>
+                  <a href={modalEmpresa?.instagram} target="_blank">
+                    <AiFillInstagram />
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href={`https://wa.me/${modalEmpresa?.whatsapp}`}
+                    target="_blank"
+                  >
+                    <AiOutlineWhatsApp />
+                  </a>
+                </p>
+              </div>
+              <div>
+                <Link to={"/"}>
+                  <button>Ver Mais</button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Modal>
@@ -141,7 +154,7 @@ const HomeRandom = () => {
           <p>{e?.telefone}</p>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

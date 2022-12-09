@@ -1,33 +1,31 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Header from './public/Header'
-import Footer from './public/Footer'
-import Home from './Pages/Home'
-import Sector from './Pages/Sector'
-import Segment from './Pages/Segment'
-import Company from './Pages/Company'
-import NotFound from './Pages/NotFound'
-import Contact from './Pages/Contact'
-import './Resetcss.css'
-import './App.css'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./public/Header";
+import Footer from "./public/Footer";
+import Home from "./Pages/Home";
+import Segment from "./Pages/Segment";
+import Company from "./Pages/Company";
+import NotFound from "./Pages/NotFound";
+import Contact from "./Pages/Contact";
+import "./Resetcss.css";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main className='AppBoddy'>
+      <main className="AppBoddy">
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='setor' element={<Sector />} />
-          <Route path='contato' element={<Contact />} />
-          <Route path='setor/:segment' element={<Segment />} />
-          <Route path='setor/:segment/:company' element={<Company />} />
-          <Route path='*' element={<NotFound />} />
+          <Route path="/" element={<Home />} />
+          <Route path=":segment" element={<Segment />} />
+          <Route path=":segment/:company" element={<Company />} />
+          <Route path="contato" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

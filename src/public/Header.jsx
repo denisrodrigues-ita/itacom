@@ -17,12 +17,12 @@ const Header = () => {
               <li><Link to="/">Página Inicial</Link></li>
               <li><a>Procurar Por</a>
                 <ul>
-                  <li><Link to="setor/farmacias">Farmácias</Link></li>
-                  <li><Link to="setor/mercados">Mercados</Link></li>
-                  <li><Link to="setor/padarias">Padarias</Link></li>
-                  <li><Link to="setor/academias">Academias</Link></li>
-                  <li><Link to="setor/restaurantes">Restaurantes</Link></li>
-                  <li><Link to="setor/servicos">Serviços</Link></li>
+                  <li><Link to="/academias">Academias</Link></li>
+                  <li><Link to="/farmacias">Farmácias</Link></li>
+                  <li><Link to="/mercados">Mercados</Link></li>
+                  <li><Link to="/padarias">Padarias</Link></li>
+                  <li><Link to="/restaurantes">Restaurantes</Link></li>
+                  <li><Link to="/servicos">Serviços</Link></li>
                 </ul>
               </li>
               <li><Link to="/contato">Contato</Link></li>
