@@ -27,6 +27,21 @@ Modal.setAppElement("#root");
 const Segment = () => {
   const { segment } = useParams();
 
+  const getRandomInt = (max) => Math.floor(Math.random() * max);
+  let arr = [];
+
+  // Função gerar empresas aleatórias
+  const randomHome = () => {
+    while (arr.length < Object.entries(emp[segment]).length) {
+      let e = null;
+      e = emp[segment][getRandomInt(emp[segment].length)];
+      if (!arr.includes(e)) {
+        arr.push(e);
+      }
+    }
+  };
+  randomHome();
+
   let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [modal, setModal] = React.useState("");
@@ -76,30 +91,27 @@ const Segment = () => {
             <AiOutlineClose />
           </button>
           <div>
-            <img src={modalEmpresa?.img} alt={modalEmpresa?.nome} />
+            <img src={arr?.img} alt={arr?.nome} />
           </div>
           <div>
-            <p>{modalEmpresa?.nome}</p>
-            <p>{modalEmpresa?.endereco}</p>
-            <p>{modalEmpresa?.cidade}</p>
-            <p>{modalEmpresa?.telefone}</p>
+            <p>{arr?.nome}</p>
+            <p>{arr?.endereco}</p>
+            <p>{arr?.cidade}</p>
+            <p>{arr?.telefone}</p>
             <div className={styles.socialMedias}>
               <div>
                 <p>
-                  <a href={modalEmpresa?.facebook} target="_blank">
+                  <a href={arr?.facebook} target="_blank">
                     <AiFillFacebook />
                   </a>
                 </p>
                 <p>
-                  <a href={modalEmpresa?.instagram} target="_blank">
+                  <a href={arr?.instagram} target="_blank">
                     <AiFillInstagram />
                   </a>
                 </p>
                 <p>
-                  <a
-                    href={`https://wa.me/${modalEmpresa?.whatsapp}`}
-                    target="_blank"
-                  >
+                  <a href={`https://wa.me/${arr?.whatsapp}`} target="_blank">
                     <AiOutlineWhatsApp />
                   </a>
                 </p>
@@ -114,7 +126,7 @@ const Segment = () => {
         </div>
       </Modal>
 
-      {emp[segment].map((e) => (
+      {arr.map((e) => (
         <div key={e.nome} className={styles.a} onClick={openModal}>
           <img src={e.img} alt={e.nome} />
           <h3 id="h3">{e?.nome}</h3>
