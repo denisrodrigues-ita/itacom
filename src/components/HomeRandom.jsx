@@ -113,8 +113,8 @@ const HomeRandom = () => {
           </div>
           <div>
             <p>{modalEmpresa?.nome}</p>
-            <p>{modalEmpresa?.endereco}</p>
             <p>{modalEmpresa?.cidade}</p>
+            <p>{modalEmpresa?.endereco}</p>
             <p>{modalEmpresa?.telefone}</p>
             <div className={styles.socialMedias}>
               <div>
@@ -138,7 +138,7 @@ const HomeRandom = () => {
                 </p>
               </div>
               <div>
-                <Link to={"/"}>
+                <Link to={`/${modalEmpresa.tipo}/${modalEmpresa.nome}`}>
                   <button>Ver Mais</button>
                 </Link>
               </div>

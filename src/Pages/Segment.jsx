@@ -126,7 +126,7 @@ const Segment = () => {
                 </p>
               </div>
               <div>
-                <Link to={"/"}>
+                <Link to={`/${modalEmpresa.tipo}/${modalEmpresa.nome}`}>
                   <button>Ver Mais</button>
                 </Link>
               </div>

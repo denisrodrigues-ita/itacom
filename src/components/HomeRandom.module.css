@@ -5,7 +5,7 @@
 
 .flx {
   display: flex;
-  gap: 1rem;
+  gap: 3rem 1rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -13,6 +13,10 @@
 .flx img {
   width: 400px;
   height: 250px;
+}
+
+.flx p {
+  line-height: 2;
 }
 
 .modal {
@@ -26,7 +30,8 @@
 .modal p,
 button {
   color: #071b3d;
-  line-height: 1.5rem;
+  /* line-height: 1.5rem; */
+  /* padding: .15rem 0; */
 }
 
 .modal img {

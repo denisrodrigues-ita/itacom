@@ -22,6 +22,7 @@ const emp = {
   mercados: [
     {
       nome: "KLM Supermercados",
+      tipo: "mercados",
       telefone: "(35) 3441-1234",
       img: klm,
       endereco: "Rua dos Bobos, nº 0",
@@ -34,9 +35,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Bela VistaSupermercados",
+      tipo: "mercados",
       telefone: "(35) 3441-1234",
       img: belavista,
       endereco: "Rua dos Bobos, nº 0",
@@ -49,9 +54,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Superama Supermercados",
+      tipo: "mercados",
       telefone: "(35) 3441-1234",
       img: superama,
       endereco: "Rua dos Bobos, nº 0",
@@ -64,11 +73,15 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
   farmacias: [
     {
       nome: "Farmabom",
+      tipo: "farmacias",
       telefone: "(35) 3441-1234",
       img: farmabom,
       endereco: "Rua dos Bobos, nº 0",
@@ -81,9 +94,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Pacheco",
+      tipo: "farmacias",
       telefone: "(35) 3441-1234",
       img: pacheco,
       endereco: "Rua dos Bobos, nº 0",
@@ -96,9 +113,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Super",
+      tipo: "farmacias",
       telefone: "(35) 3441-1234",
       img: superfarma,
       endereco: "Rua dos Bobos, nº 0",
@@ -111,11 +132,15 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
   servicos: [
     {
       nome: "Bussato",
+      tipo: "servicos",
       telefone: "(35) 3441-1234",
       img: bussato,
       endereco: "Rua dos Bobos, nº 0",
@@ -128,9 +153,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Eletrica Hamilton",
+      tipo: "servicos",
       telefone: "(35) 3441-1234",
       img: eletricaHamilton,
       endereco: "Rua dos Bobos, nº 0",
@@ -143,9 +172,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Enermat",
+      tipo: "servicos",
       telefone: "(35) 3441-1234",
       img: enermat,
       endereco: "Rua dos Bobos, nº 0",
@@ -158,11 +191,15 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
   academias: [
     {
       nome: "Atitude Feminina",
+      tipo: "academias",
       telefone: "(35) 3441-1234",
       img: atitude,
       endereco: "Rua dos Bobos, nº 0",
@@ -175,9 +212,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Blue Fit",
+      tipo: "academias",
       telefone: "(35) 3441-1234",
       img: blueFit,
       endereco: "Rua dos Bobos, nº 0",
@@ -190,9 +231,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Bonna Vitta",
+      tipo: "academias",
       telefone: "(35) 3441-1234",
       img: bonnaVitta,
       endereco: "Rua dos Bobos, nº 0",
@@ -205,11 +250,15 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
   restaurantes: [
     {
       nome: "Bom De Boia",
+      tipo: "restaurantes",
       telefone: "(35) 3441-1234",
       img: bomDeBoia,
       endereco: "Rua dos Bobos, nº 0",
@@ -222,9 +271,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Rest",
+      tipo: "restaurantes",
       telefone: "(35) 3441-1234",
       img: rest,
       endereco: "Rua dos Bobos, nº 0",
@@ -237,9 +290,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Sushi Sashimi",
+      tipo: "restaurantes",
       telefone: "(35) 3441-1234",
       img: sushisashimi,
       endereco: "Rua dos Bobos, nº 0",
@@ -252,11 +309,15 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
   padarias: [
     {
       nome: "Jariel Pan",
+      tipo: "padarias",
       telefone: "(35) 3441-1234",
       img: jarielPan,
       endereco: "Rua dos Bobos, nº 0",
@@ -269,9 +330,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Padaria Real",
+      tipo: "padarias",
       telefone: "(35) 3441-1234",
       img: padariaReal,
       endereco: "Rua dos Bobos, nº 0",
@@ -284,9 +349,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Pão Doce Pão",
+      tipo: "padarias",
       telefone: "(35) 3441-1234",
       img: paoDocePao,
       endereco: "Rua dos Bobos, nº 0",
@@ -299,9 +368,13 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
       nome: "Panificadora Lisboa",
+      tipo: "padarias",
       telefone: "(35) 3441-1234",
       img: lisboa,
       endereco: "Rua dos Bobos, nº 0",
@@ -314,6 +387,9 @@ const emp = {
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
       whatsapp: "5535999998888",
+      descricao:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
   ],
 };
