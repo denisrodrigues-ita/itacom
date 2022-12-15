@@ -54,7 +54,7 @@
 
 .grid li ul li {
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-  padding: .5rem .2rem;
+  padding: 0.5rem 0.2rem;
   border: 1px solid #96e6a1;
   display: block;
   width: 150px;

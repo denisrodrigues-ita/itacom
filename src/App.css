@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-  --first-color: #071B3D;
+  --first-color: #071b3d;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   color: var(--first-color);
 }
@@ -32,7 +32,7 @@ h2 {
 .animeLeft {
   opacity: 0;
   transform: translateX(-20px);
-  animation: animeLeft .3s forwards;
+  animation: animeLeft 0.3s forwards;
 }
 
 @keyframes animeLeft {
