@@ -17,6 +17,7 @@ import jarielPan from "./src/img/segmentos/padarias/jariel-pan.jpg";
 import padariaReal from "./src/img/segmentos/padarias/padaria-real.jpg";
 import paoDocePao from "./src/img/segmentos/padarias/pao-doce-pao.jpg";
 import lisboa from "./src/img/segmentos/padarias/lisboa.jpg";
+import klmLogo from "./src/img/segmentos/mercados/klmLogo.jpg";
 
 const emp = {
   mercados: [
@@ -25,12 +26,13 @@ const emp = {
       tipo: "mercados",
       telefone: "(35) 3441-1234",
       img: klm,
+      logo: klmLogo,
       endereco: "Rua dos Bobos, nº 0",
       cidade: "Juiz de Fora",
       estado: "MG",
       cep: "36000-000",
       cnpj: "00.000.000/0000-00",
-      email: "",
+      email: "klm@gmail.com",
       site: "www.klm.com.br",
       facebook: "https://www.facebook.com/klm",
       instagram: "https://www.instagram.com/klm",
@@ -40,7 +42,7 @@ const emp = {
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7550068069954!2d-43.9109488!3d-19.934726299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999936347d79%3A0xbcdd280359d28b21!2sR.%20Guitarra%20-%20Belo%20Horizonte%2C%20MG%2C%2030250-170!5e0!3m2!1spt-BR!2sbr!4v1670961232616!5m2!1spt-BR!2sbr",
     },
     {
-      nome: "Bela VistaSupermercados",
+      nome: "Bela Vista Supermercados",
       tipo: "mercados",
       telefone: "(35) 3441-1234",
       img: belavista,

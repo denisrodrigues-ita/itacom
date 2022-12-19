@@ -7,6 +7,7 @@ import Segment from "./Pages/Segment";
 import Company from "./Pages/Company";
 import NotFound from "./Pages/NotFound";
 import Contact from "./Pages/Contact";
+import Busca from "./Pages/Busca";
 import "./Resetcss.css";
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path=":segment" element={<Segment />} />
+          <Route path="busca/:pesquisa" element={<Busca />} />
           <Route path=":segment/:company" element={<Company />} />
           <Route path="contato" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
