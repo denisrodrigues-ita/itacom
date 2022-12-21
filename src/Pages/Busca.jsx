@@ -4,13 +4,16 @@ import emp from "../../Api/";
 
 const Busca = () => {
   const { pesquisa } = useParams();
-  const [search, setSearch] = React.useState("");
+  const [search, setSearch] = React.useState([]);
 
-  let busca = [];
   React.useEffect(() => {
+    let busca = [];
     Object.entries(emp).forEach((element) => {
       element[1].forEach((e) => {
-        if (e.nome.toLowerCase().includes(pesquisa.toLowerCase())) {
+        if (
+          e.nome.toLowerCase().includes(pesquisa.toLowerCase()) ||
+          e.tipo.toLowerCase().includes(pesquisa.toLowerCase())
+        ) {
           busca.push(e);
         }
         setSearch(busca);
