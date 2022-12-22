@@ -27,6 +27,7 @@ h2 {
 .container {
   max-width: 1296px;
   margin: auto;
+  font-size: larger;
 }
 
 .animeLeft {

@@ -4,8 +4,9 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Search.module.css";
 
 const Search = () => {
-  const [value, setValue] = React.useState("");
   const navigate = useNavigate();
+
+  const [value, setValue] = React.useState("");
 
   const handleChange = (event) => {
     setValue(event.target.value);

@@ -1,5 +1,4 @@
 import React from "react";
-import HomeRandom from "../components/HomeRandom";
 import RandomCompanies from "../components/RandomCompanies";
 import styles from "./Home.module.css";
 

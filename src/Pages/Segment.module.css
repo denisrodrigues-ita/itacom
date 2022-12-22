@@ -9,6 +9,7 @@
 
 .flx {
   display: flex;
+  padding-top: 5rem;
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: space-around;
