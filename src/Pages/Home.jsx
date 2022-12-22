@@ -1,5 +1,6 @@
 import React from "react";
 import HomeRandom from "../components/HomeRandom";
+import RandomCompanies from "../components/RandomCompanies";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
         <h2>Empresas em destaque.</h2>
       </div>
       <div>
-        <HomeRandom />
+        <RandomCompanies type={"home"} />
       </div>
     </section>
   );
