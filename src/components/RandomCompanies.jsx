@@ -24,7 +24,7 @@ const customStyles = {
 
 Modal.setAppElement("#root");
 
-let arr = [];
+const getRandomInt = (max) => Math.floor(Math.random() * max);
 
 const RandomCompanies = ({ type, pesquisa, segment }) => {
   const [modalEmpresa, setModalEmpresa] = React.useState({});
@@ -34,69 +34,51 @@ const RandomCompanies = ({ type, pesquisa, segment }) => {
   let subtitle;
   let count = 0;
 
-  const getRandomInt = (max) => Math.floor(Math.random() * max);
-
   // implementando count para quando tiver menos de 9 empresas não bugar
-  Object.entries(emp).forEach((item) => {
-    item[1].forEach((i) => {
-      count++;
-    });
+  Object.entries(emp).forEach(([, companies]) => {
+    count += companies.length;
   });
 
   React.useEffect(() => {
+    let arr = [];
+    const numEmpresas = type === "home" ? 9 : count;
+
     switch (type) {
       case "home":
-        arr = [];
-        if (count < 9) {
-          while (arr.length < count) {
-            let seg = null;
-            let e = null;
-            seg =
-              Object.entries(emp)[getRandomInt(Object.entries(emp).length)][0];
-            e = emp[seg][getRandomInt(emp[seg].length)];
-            if (!arr.includes(e)) {
-              arr.push(e);
-            }
-            setEmpresas(arr);
-          }
-        } else {
-          while (arr.length < 9) {
-            let seg = null;
-            let e = null;
-            seg =
-              Object.entries(emp)[getRandomInt(Object.entries(emp).length)][0];
-            e = emp[seg][getRandomInt(emp[seg].length)];
-            if (!arr.includes(e)) {
-              arr.push(e);
-            }
-            setEmpresas(arr);
+        while (arr.length < numEmpresas) {
+          let seg = null;
+          let e = null;
+          seg =
+            Object.entries(emp)[getRandomInt(Object.entries(emp).length)][0];
+          e = emp[seg][getRandomInt(emp[seg].length)];
+          if (!arr.includes(e)) {
+            arr.push(e);
           }
         }
+        setEmpresas(arr);
         break;
       case "search":
-        arr = [];
-        Object.entries(emp).forEach((element) => {
-          element[1].forEach((e) => {
+        Object.entries(emp).forEach(([, companies]) => {
+          companies.forEach((e) => {
             if (
               e.nome.toLowerCase().includes(pesquisa.toLowerCase()) ||
               e.tipo.toLowerCase().includes(pesquisa.toLowerCase())
             ) {
               arr.push(e);
             }
-            setEmpresas(arr);
           });
         });
+        setEmpresas(arr);
         break;
       case "segment":
-        arr = [];
-        while (arr.length < Object.entries(emp[segment]).length) {
+        while (arr.length < emp[segment].length) {
           let e = null;
           e = emp[segment][getRandomInt(emp[segment].length)];
           if (!arr.includes(e)) {
             arr.push(e);
           }
-          setEmpresas(arr);
         }
+        setEmpresas(arr);
         break;
     }
   }, [type, pesquisa, segment]);
@@ -117,7 +99,7 @@ const RandomCompanies = ({ type, pesquisa, segment }) => {
 
   // Função para pegar o nome da empresa que foi clicada
   React.useEffect(() => {
-    arr.forEach((item) => {
+    empresas.forEach((item) => {
       if (item.nome === modal) {
         setModalEmpresa(item);
       }

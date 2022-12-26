@@ -7,7 +7,7 @@ const Segment = () => {
   const { segment } = useParams();
 
   return (
-    <section className={`${styles.flx} container`}>
+    <section className={`${styles.flx} container animeLeft`}>
       <RandomCompanies type={"segment"} segment={segment} />
     </section>
   );

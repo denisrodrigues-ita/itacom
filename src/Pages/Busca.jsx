@@ -7,7 +7,7 @@ const Busca = () => {
   const { pesquisa } = useParams();
 
   return (
-    <section className={`container ${styles.busca}`}>
+    <section className={`container animeLeft ${styles.busca}`}>
       <RandomCompanies type={"search"} pesquisa={pesquisa} />
     </section>
   );

@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="animeLeft">
       <div className={styles.center}>
         <h1>Contatos</h1>
         <p>

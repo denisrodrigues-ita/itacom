@@ -21,7 +21,7 @@ const Company = () => {
   }, [segment, company]);
 
   return (
-    <section className="container">
+    <section className="container animeLeft">
       <main className={styles.mainComp}>
         <div>
           <div>
